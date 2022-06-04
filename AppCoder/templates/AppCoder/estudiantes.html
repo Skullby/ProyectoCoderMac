@@ -1,6 +1,8 @@
 {% extends 'AppCoder/padre.html' %}
 {% load static %}
 {% block contenidoQueCambia %}
-    <p>Estudiantes</p>
+    <h1>Estudiantes</h1>
+
+    <a class="navbar-brand" href="{% url 'estudianteForm' %}">Formulario Estudiantes</a>
 
 {% endblock %}
